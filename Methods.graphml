@@ -18,15 +18,13 @@
       <data key="d4" xml:space="preserve"/>
       <data key="d6">
         <y:UMLClassNode>
-          <y:Geometry height="103.97969602325259" width="164.89255161612834" x="248.81663203837377" y="215.2715020907158"/>
+          <y:Geometry height="103.97969602325259" width="164.89255161612834" x="-494.3522630608026" y="969.0632832024244"/>
           <y:Fill color="#C0C0C0" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="2.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.92626953125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="79.841796875" x="42.52537737056417" xml:space="preserve" y="3.0">Background<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="-0.03703090122767855" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.92626953125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="103.70263671875" x="30.594957448689172" xml:space="preserve" y="3.0">prototype_calcs<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="-0.03703090122767855" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
           <y:UML clipContent="true" constraint="" hasDetailsColor="false" omitDetails="false" stereotype="" use3DEffect="false">
-            <y:AttributeLabel xml:space="preserve">+id: String
-+images: List&lt;PImage&gt;
-+imageIndex: int</y:AttributeLabel>
-            <y:MethodLabel xml:space="preserve">+getCurrentImage(): PImage</y:MethodLabel>
+            <y:AttributeLabel xml:space="preserve"/>
+            <y:MethodLabel xml:space="preserve"/>
           </y:UML>
         </y:UMLClassNode>
       </data>
@@ -35,14 +33,20 @@
       <data key="d4" xml:space="preserve"/>
       <data key="d6">
         <y:UMLClassNode>
-          <y:Geometry height="103.97969602325259" width="137.0" x="693.6515495384156" y="559.616652455705"/>
+          <y:Geometry height="187.73850350311" width="241.0" x="910.229727921329" y="252.2689806753133"/>
           <y:Fill color="#C0C0C0" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="2.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.92626953125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="39.40087890625" x="48.799560546875" xml:space="preserve" y="3.0">Event<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="-0.03703090122767855" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.92626953125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="221.4453125" x="9.77734375" xml:space="preserve" y="3.0">weight_model(~,b,~,~,geom,aero,~)<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="-0.03703090122767855" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="118.5" y="91.869251751555">
+            <y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
           <y:UML clipContent="true" constraint="" hasDetailsColor="false" omitDetails="false" stereotype="" use3DEffect="false">
-            <y:AttributeLabel xml:space="preserve">+action: Action
-+time: long
-+entity: Entity</y:AttributeLabel>
+            <y:AttributeLabel xml:space="preserve"/>
             <y:MethodLabel xml:space="preserve"/>
           </y:UML>
         </y:UMLClassNode>
@@ -52,13 +56,59 @@
       <data key="d4" xml:space="preserve"/>
       <data key="d6">
         <y:UMLClassNode>
-          <y:Geometry height="65.18235205544829" width="137.0" x="457.24634584627285" y="699.5105767134988"/>
+          <y:Geometry height="766.1504761904761" width="241.0" x="-130.76731775505186" y="-773.9686356990023"/>
           <y:Fill color="#C0C0C0" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="2.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.92626953125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="113.078125" x="11.9609375" xml:space="preserve" y="3.0">EventComparator<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="-0.03703090122767855" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.92626953125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="186.76171875" x="27.119140625" xml:space="preserve" y="3.0">Drag_Polar(aero, geom, W, S)<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="-0.03703090122767855" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
           <y:UML clipContent="true" constraint="" hasDetailsColor="false" omitDetails="false" stereotype="" use3DEffect="false">
-            <y:AttributeLabel xml:space="preserve"/>
-            <y:MethodLabel xml:space="preserve">+compare(): int</y:MethodLabel>
+            <y:AttributeLabel xml:space="preserve">Passed:
+aero Struct
+geom Struct
+W Double
+S Double
+
+Calculated:
+mu Double
+rho Double
+C_L_low Double
+V_max Double
+V_min Double
+V_vect[] Double 
+done Bool
+it Int
+pwr Double
+chord Double
+Re Double
+C_L Double
+C_DP Double
+C_D_min Double
+C_L_min Double
+C_DP_wing Double
+S_wet Double
+C_f Double
+FF Double
+C_D_f Double
+C_D_ind Double
+C_D Double
+
+Returned:
+C_L_min_pwr
+C_D_min_pwr 
+V_min_pwr</y:AttributeLabel>
+            <y:MethodLabel xml:space="preserve">This drag polar only applies for Steady 
+Level Flight, and is a function of 
+the aircraft velocity. Takes into account
+Parasitic, RE-dependent viscous, Lift 
+dependent Viscous, and Induced drag.
+must specify actual wing loading and 
+area (not WtoS), therefore must be
+used with an iterative solver. Finds C_L 
+C_D and Velocity for minimum power
+required. Does not include trim drag yet.
+
+Returns the C_L, C_D, and Velocity at 
+Steady Level Flight for the minimum 
+power inputs at different wing loads.</y:MethodLabel>
           </y:UML>
         </y:UMLClassNode>
       </data>
@@ -67,18 +117,27 @@
       <data key="d4" xml:space="preserve"/>
       <data key="d6">
         <y:UMLClassNode>
-          <y:Geometry height="148.63183271793048" width="273.0" x="111.89823276695199" y="657.7858363822577"/>
+          <y:Geometry height="339.48080042187735" width="426.6020891417081" x="230.00563828547462" y="176.3978322159296"/>
           <y:Fill color="#C0C0C0" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="2.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.92626953125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="102.25537109375" x="85.372314453125" xml:space="preserve" y="3.0">EventScheduler<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="-0.03703090122767855" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.92626953125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="399.12890625" x="13.73659144585406" xml:space="preserve" y="3.0">Constant_Weight_Sizing(design, aero, PT, sys, geom, loads,vis)<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="-0.03703090122767855" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
           <y:UML clipContent="true" constraint="" hasDetailsColor="false" omitDetails="false" stereotype="" use3DEffect="false">
-            <y:AttributeLabel xml:space="preserve">+eventQueue: PriorityQueue&lt;Event&gt;
-+pendingEvents: Map&lt;Entity, List&lt;Event&gt;&gt;
-+timeScale: double</y:AttributeLabel>
-            <y:MethodLabel xml:space="preserve">+scheduleEvent()
-+unscheduleAllEvents() 
-+removePendingEvent()
-+updateOnTIme()</y:MethodLabel>
+            <y:AttributeLabel xml:space="preserve">Passed: 
+design Struct
+aero Struct
+PT Struct
+sys Struct
+geom Struct
+loads Struct
+vis int
+
+Calculated:
+
+
+Returned:
+results Struct
+</y:AttributeLabel>
+            <y:MethodLabel xml:space="preserve"/>
           </y:UML>
         </y:UMLClassNode>
       </data>
@@ -87,17 +146,38 @@
       <data key="d4" xml:space="preserve"/>
       <data key="d6">
         <y:UMLClassNode>
-          <y:Geometry height="137.0" width="241.0" x="-201.44988031236886" y="721.4627954954178"/>
+          <y:Geometry height="456.14845043687893" width="272.6974789915967" x="306.8066828563286" y="-348.8517640070299"/>
           <y:Fill color="#C0C0C0" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="2.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.92626953125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="74.8017578125" x="83.09912109375" xml:space="preserve" y="3.0">ImageStore<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="-0.03703090122767855" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.92626953125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="147.76171875" x="62.467880120798355" xml:space="preserve" y="3.0">Solar_Array_Model(PT)<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="-0.03703090122767855" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
           <y:UML clipContent="true" constraint="" hasDetailsColor="false" omitDetails="false" stereotype="" use3DEffect="false">
-            <y:AttributeLabel xml:space="preserve">+images: Map&lt;String, List&lt;PImage&gt;&gt;
-+defaultImages: List&lt;PImage&gt;</y:AttributeLabel>
-            <y:MethodLabel xml:space="preserve">+getImageList(): List&lt;PImage&gt;
-+processImageLine() &lt;&lt;static&gt;&gt;
-+getImages() &lt;&lt;static&gt;&gt;
-+setAlpha() &lt;&lt;static&gt;&gt;</y:MethodLabel>
+            <y:AttributeLabel xml:space="preserve">Passed:
+PT Struct
+
+Calculated:
+clock_time Double
+theta_temp Double
+time Double
+theta Double
+phi Double
+c_a Double
+I_act[] Double
+
+Returned:
+e_tot Double
+p_vec[] Double
+t_day Double
+t_night Double
+day_vec[] Double
+ts Double</y:AttributeLabel>
+            <y:MethodLabel xml:space="preserve">Models the solar energy captured by the solar 
+array. e_tot is J/m^2. P_vec is a vector of the 
+power output over a 24 hr cycle [W/m^2]. 
+t_day and t_night are scalars of the total duration 
+of the day/night [s]. day_vec is a vector of times 
+throughout the day [seconds]. ts is the TimeStep 
+between data points in the textfile in seconds. 
+Data based off NASA CR 3699 research paper.</y:MethodLabel>
           </y:UML>
         </y:UMLClassNode>
       </data>
@@ -106,17 +186,13 @@
       <data key="d4" xml:space="preserve"/>
       <data key="d6">
         <y:UMLClassNode>
-          <y:Geometry height="137.0" width="133.0" x="973.9902699617687" y="107.14748343567538"/>
+          <y:Geometry height="576.2383731092435" width="382.99999999999983" x="-603.4059872527383" y="57.66666666666674"/>
           <y:Fill color="#C0C0C0" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="2.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.92626953125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="36.49365234375" x="48.253173828125" xml:space="preserve" y="3.0">Point<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="-0.03703090122767855" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.92626953125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="91.39453125" x="145.80273437499991" xml:space="preserve" y="3.0">optimizerMain<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="-0.03703090122767855" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
           <y:UML clipContent="true" constraint="" hasDetailsColor="false" omitDetails="false" stereotype="" use3DEffect="false">
-            <y:AttributeLabel xml:space="preserve">+x: int
-+y: int</y:AttributeLabel>
-            <y:MethodLabel xml:space="preserve">+toString(): String
-+equals(): boolean
-+adjacent(): boolean
-+distanceSquared(): int</y:MethodLabel>
+            <y:AttributeLabel xml:space="preserve"/>
+            <y:MethodLabel xml:space="preserve"/>
           </y:UML>
         </y:UMLClassNode>
       </data>
@@ -125,480 +201,98 @@
       <data key="d4" xml:space="preserve"/>
       <data key="d6">
         <y:UMLClassNode>
-          <y:Geometry height="170.0070443962005" width="208.6521366946779" x="421.4202774989338" y="412.8562799220414"/>
+          <y:Geometry height="418.5241175534774" width="273.0" x="-548.4059872527384" y="-493.95460199197566"/>
           <y:Fill color="#C0C0C0" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="2.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.92626953125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="58.89453125" x="74.87880272233895" xml:space="preserve" y="3.0">Viewport<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="-0.03703090122767855" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.92626953125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="258.9853515625" x="7.00732421875" xml:space="preserve" y="3.0">thrust_power_required(aero, geom, W, S)<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="-0.03703090122767855" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
           <y:UML clipContent="true" constraint="" hasDetailsColor="false" omitDetails="false" stereotype="" use3DEffect="false">
-            <y:AttributeLabel xml:space="preserve">+row: int
-+col: int
-+numRows: int
-+numCols: int</y:AttributeLabel>
-            <y:MethodLabel xml:space="preserve">+shift(): boolean &lt;&lt;static&gt;&gt;
-+contains(): boolean &lt;&lt;static&gt;&gt;
-+viewportToWorld(): Point &lt;&lt;static&gt;&gt;
-+worldToViewport(): Point &lt;&lt;static&gt;&gt;</y:MethodLabel>
+            <y:AttributeLabel xml:space="preserve">Passed:
+aero Struct
+geom Struct
+W Double
+S Double
+
+Calculated:
+rho Double
+rho0 Double
+alpha Double
+C_L Double
+C_d Double
+
+Returned:
+P_thrust double
+</y:AttributeLabel>
+            <y:MethodLabel xml:space="preserve">Uses built in function atmosisa() to calculate
+density values and angle of attack alpha. 
+Calls Drag_Polar() to find coefficients of lift 
+and drag. Finds thrust power required by 
+deriving from P = Drag*v, where v is found 
+using Lift = Weight = 0.5*rho*S*Cl*v^2, and 
+Drag = 0.5*rho*S*Cd*v^2.
+
+Returns Thrust Power Required based on 
+altitude, weight, span, and geometry*.</y:MethodLabel>
           </y:UML>
         </y:UMLClassNode>
       </data>
     </node>
-    <node id="n7">
-      <data key="d4" xml:space="preserve"/>
-      <data key="d6">
-        <y:UMLClassNode>
-          <y:Geometry height="1071.4438858800845" width="220.867033462421" x="-123.72063560849853" y="-692.1246528669018"/>
-          <y:Fill color="#C0C0C0" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="2.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.92626953125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="78.37548828125" x="71.2457725905855" xml:space="preserve" y="3.0">WorldModel<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="-0.03703090122767855" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-          <y:UML clipContent="true" constraint="" hasDetailsColor="false" omitDetails="false" stereotype="" use3DEffect="false">
-            <y:AttributeLabel xml:space="preserve">+numRows: int
-+numCols: int
-+background: Background[][]
-+occupancy: Entity[][]
-+entities: Set&lt;Entity&gt;
-+PROPERTY_KEY: int                               &lt;&lt;static&gt;&gt;
-+BGND_KEY: String                            &lt;&lt;static&gt;&gt;
-+BGND_NUM_PROPERTIES: int                    &lt;&lt;static&gt;&gt;
-+BGND_ID: int                                &lt;&lt;static&gt;&gt;
-+BGND_COL: int                               &lt;&lt;static&gt;&gt;
-+BGND_ROW: int                               &lt;&lt;static&gt;&gt;
-+COLOR_MASK: int                             &lt;&lt;static&gt;&gt;
-+KEYED_IMAGE_MIN: int                        &lt;&lt;static&gt;&gt;
-+KEYED_RED_IDX: int                        &lt;&lt;static&gt;&gt;
-+KEYED_GREEN_IDX: int                        &lt;&lt;static&gt;&gt;
-+KEYED_BLUE_IDX: int                        &lt;&lt;static&gt;&gt;
-+PROPERTY_KEY: int                           &lt;&lt;static&gt;&gt;
-+MINER_KEY: string &lt;&lt;static&gt;&gt;
-+MINER_NUM_PROPERTIES: int &lt;&lt;static&gt;&gt;
-+MINER_ID: int &lt;&lt;static&gt;&gt;
-+MINER_COL: int &lt;&lt;static&gt;&gt;
-+MINER_ROW: int &lt;&lt;static&gt;&gt;
-+MINER_LIMIT: int &lt;&lt;static&gt;&gt;
-+MINER_ACTION_PERIOD: int &lt;&lt;static&gt;&gt;
-+MINER_ANIMATION_PERIOD: int &lt;&lt;static&gt;&gt;
-+OBSTACLE_KEY: String &lt;&lt;static&gt;&gt;
-+OBSTACLE_NUM_PROPERTIES: int &lt;&lt;static&gt;&gt;
-+OBSTACLE_ID: int &lt;&lt;static&gt;&gt;
-+OBSTACLE_COL: int &lt;&lt;static&gt;&gt;
-+OBSTACLE_ROW: int &lt;&lt;static&gt;&gt;
-+ORE_KEY: String &lt;&lt;static&gt;&gt;
-+ORE_NUM_PROPERTIES: int &lt;&lt;static&gt;&gt;
-+SMITH_KEY: String  &lt;&lt;static&gt;&gt;  
-+SMITH_NUM_PROPERTIES: int &lt;&lt;static&gt;&gt;
-+SMITH_ID: int &lt;&lt;static&gt;&gt;
-+SMITH_COL: int &lt;&lt;static&gt;&gt;
-+SMITH_ROW: int &lt;&lt;static&gt;&gt;
-+VEIN_KEY: String &lt;&lt;static&gt;&gt;
-+VEIN_NUM_PROPERTIES: int &lt;&lt;static&gt;&gt;
-+VEIN_ID: int &lt;&lt;static&gt;&gt;
-+VEIN_COL: int &lt;&lt;static&gt;&gt;
-+VEIN_ROW: int &lt;&lt;static&gt;&gt;
-+VEIN_ACTION_PERIOD: int &lt;&lt;static&gt;&gt;</y:AttributeLabel>
-            <y:MethodLabel xml:space="preserve">+load()
-+findOpenAround(): &lt;&lt;static&gt;&gt; Optional&lt;Point&gt;
-+tryAddEntity()
-+withinBounds(): boolean
-+isOccupied(): boolean
-+getOccupancy():
-+getOccupancyCell(): Entity
-+setOccupancyCell()
-+getBackgroundCell(): Background
-+setBackgroundCell():
-+addEnity()
-+moveEnity()
-+removeEnity()
-+removeEnityAt()
- Optional&lt;PImage&gt;
-+setBackground()
-+getOccupant(): Optional&lt;Entity&gt;
-+getBackgroundCell(): Background
-+setBackgroundCell(): Optional&lt;Entity&gt;
-+processLine(): boolean	&lt;&lt;static&gt;&gt;
-+parseBackground(): boolean	&lt;&lt;static&gt;&gt;
-+parseMiner(): boolean	&lt;&lt;static&gt;&gt;
-+parseObstacle(): boolean	&lt;&lt;static&gt;&gt;
-+parseOre(): boolean	&lt;&lt;static&gt;&gt;
-+parseSmith(): boolean	&lt;&lt;static&gt;&gt;
-+parseVein(): boolean	&lt;&lt;static&gt;&gt;</y:MethodLabel>
-          </y:UML>
-        </y:UMLClassNode>
-      </data>
-    </node>
-    <node id="n8">
-      <data key="d4" xml:space="preserve"/>
-      <data key="d6">
-        <y:UMLClassNode>
-          <y:Geometry height="197.3714477752983" width="159.99999999999994" x="168.39823276695202" y="412.85627992204144"/>
-          <y:Fill color="#C0C0C0" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="2.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.92626953125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="70.447265625" x="44.77636718749997" xml:space="preserve" y="3.0">WorldView<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="-0.03703090122767855" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-          <y:UML clipContent="true" constraint="" hasDetailsColor="false" omitDetails="false" stereotype="" use3DEffect="false">
-            <y:AttributeLabel xml:space="preserve">+screen: PApplet
-+world: WorldModel
-+tileWidth: int
-+tileHeight: int
-+viewport: Viewport</y:AttributeLabel>
-            <y:MethodLabel xml:space="preserve">+clamp(): int
-+shiftView()
-+drawBackground()
-+drawEntities()
-+drawViewPort()</y:MethodLabel>
-          </y:UML>
-        </y:UMLClassNode>
-      </data>
-    </node>
-    <node id="n9">
-      <data key="d4" xml:space="preserve"/>
-      <data key="d6">
-        <y:UMLClassNode>
-          <y:Geometry height="576.2383731092435" width="382.99999999999983" x="-603.4059872527383" y="57.66666666666674"/>
-          <y:Fill color="#C0C0C0" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="2.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.92626953125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="81.2763671875" x="150.86181640624991" xml:space="preserve" y="3.0">VirtualWorld<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="-0.03703090122767855" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-          <y:UML clipContent="true" constraint="" hasDetailsColor="false" omitDetails="false" stereotype="" use3DEffect="false">
-            <y:AttributeLabel xml:space="preserve">+TIMER_ACTION_PERIOD: int         &lt;&lt;static&gt;&gt;
-+VIEW_WIDTH: int                          &lt;&lt;static&gt;&gt;
-+VIEW_HEIGHT: int                         &lt;&lt;static&gt;&gt;
-+TILE_WIDTH: int                           &lt;&lt;static&gt;&gt;
-+TILE_HEIGHT: int                          &lt;&lt;static&gt;&gt;
-+WORLD_WIDTH_SCALE: int           &lt;&lt;static&gt;&gt;
-+WORLD_HEIGHT_SCALE: int          &lt;&lt;static&gt;&gt;
-+VIEW_COLS: int                             &lt;&lt;static&gt;&gt;
-+VIEW_ROWS: int                            &lt;&lt;static&gt;&gt;
-+WORLD_COLS: int                         &lt;&lt;static&gt;&gt;
-+WORLD_ROWS: int                        &lt;&lt;static&gt;&gt;
-+IMAGE_LIST_FILE_NAME: String    &lt;&lt;static&gt;&gt;
-+DEFAULT_IMAGE_NAME: String    &lt;&lt;static&gt;&gt;
-+DEFAULT_IMAGE_COLOR: int       &lt;&lt;static&gt;&gt;
-+LOAD_FILE_NAME: String            &lt;&lt;static&gt;&gt;
-+FAST_FLAG: String                      &lt;&lt;static&gt;&gt;
-+FASTER_FLAG: String                  &lt;&lt;static&gt;&gt;
-+FASTEST_FLAG: String                &lt;&lt;static&gt;&gt;
-+FAST_SCALE: double                  &lt;&lt;static&gt;&gt;
-+FASTER_SCALE: double              &lt;&lt;static&gt;&gt;
-+FASTEST_SCALE: double            &lt;&lt;static&gt;&gt;
-+timeScale: double
-+imageStore: ImageStore
-+world: WorldModel
-+view: WorldView
-+scheduler: EventScheduler</y:AttributeLabel>
-            <y:MethodLabel xml:space="preserve">+settings()
-+setup()
-+draw()
-+keyPressed()
-+createDefaultBackground()         &lt;&lt;static&gt;&gt;
-+createImageColored()                 &lt;&lt;static&gt;&gt;
-+loadWorld()                                 &lt;&lt;static&gt;&gt;
-+scheduleActions()                       &lt;&lt;static&gt;&gt;
-+parseCommandLine()                  &lt;&lt;static&gt;&gt;
-+main()                                         &lt;&lt;static&gt;&gt;</y:MethodLabel>
-          </y:UML>
-        </y:UMLClassNode>
-      </data>
-    </node>
-    <node id="n10">
-      <data key="d4" xml:space="preserve"/>
-      <data key="d6">
-        <y:UMLClassNode>
-          <y:Geometry height="65.18235205544829" width="365.0" x="222.35254240251936" y="37.791971841066214"/>
-          <y:Fill color="#C0C0C0" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="2.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.92626953125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="66.10546875" x="149.447265625" xml:space="preserve" y="3.0">Functions<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="-0.03703090122767855" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-          <y:UML clipContent="true" constraint="" hasDetailsColor="false" omitDetails="false" stereotype="" use3DEffect="false">
-            <y:AttributeLabel xml:space="preserve"/>
-            <y:MethodLabel xml:space="preserve"/>
-          </y:UML>
-        </y:UMLClassNode>
-      </data>
-    </node>
-    <node id="n11">
-      <data key="d4" xml:space="preserve"/>
-      <data key="d6">
-        <y:UMLClassNode>
-          <y:Geometry height="461.8827876750697" width="220.86703346242098" x="894.2306848832195" y="380.66510662979636"/>
-          <y:Fill color="#C0C0C0" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="2.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.92626953125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="44.44091796875" x="88.21305774683549" xml:space="preserve" y="3.0">Action<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="-0.03703090122767855" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-          <y:UML clipContent="true" constraint="" hasDetailsColor="false" omitDetails="false" stereotype="" use3DEffect="false">
-            <y:AttributeLabel xml:space="preserve">+kind: ActionKind
-+entity: Entity
-+world: WorldModel
-+imageStore: ImageStore
-+repeatCount: int
-+BLOB_KEY: String &lt;&lt;static&gt;&gt;
-+BLOB_ID_SUFFIX: int &lt;&lt;static&gt;&gt;
-+BLOB_PERIOD_SCALE: int &lt;&lt;static&gt;&gt;
-+BLOB_ANIMATION_MIN: int &lt;&lt;static&gt;&gt;
-+BLOB_ANIMATION_MAX: int &lt;&lt;static&gt;&gt;
-+ORE_ID_PREFIX: String &lt;&lt;static&gt;&gt;
-+ORE_CORRUPT_MIN: int 
-+ORE_CORRUPT_MAX: int &lt;&lt;static&gt;&gt;
-+ORE_REACH: int &lt;&lt;static&gt;&gt;
-+QUAKE_KEY: int &lt;&lt;static&gt;&gt;
-+ORE_ID: int &lt;&lt;static&gt;&gt;
-+ORE_COL: int &lt;&lt;static&gt;&gt;
-+ORE_ROW: int &lt;&lt;static&gt;&gt;
-+ORE_ACTION_PERIOD: int &lt;&lt;static&gt;&gt;</y:AttributeLabel>
-            <y:MethodLabel xml:space="preserve">+executeAction()
-+executeAnimationAction()
-+executeActivityAction()
-+exectureMinerFullActivity()
-+executeMinerNotFullActivity()
-+executeOreActivity()
-+executeOreBlobActivity()
-+executeQuakeActivity()
-+executeVeinActivity()</y:MethodLabel>
-          </y:UML>
-        </y:UMLClassNode>
-      </data>
-    </node>
-    <node id="n12">
-      <data key="d4" xml:space="preserve"/>
-      <data key="d6">
-        <y:UMLClassNode>
-          <y:Geometry height="119.91214401252068" width="136.54200133868812" x="1178.6768536904444" y="551.650428461071"/>
-          <y:Fill color="#C0C0C0" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="2.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.92626953125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="73.32275390625" x="31.609623716219062" xml:space="preserve" y="26.701171875">ActionKind<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="-0.03703090122767855" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-          <y:UML clipContent="true" constraint="" hasDetailsColor="false" omitDetails="false" stereotype="enumeration" use3DEffect="false">
-            <y:AttributeLabel xml:space="preserve">ACTIVITY
-ANIMATION</y:AttributeLabel>
-            <y:MethodLabel xml:space="preserve"/>
-          </y:UML>
-        </y:UMLClassNode>
-      </data>
-    </node>
-    <node id="n13">
-      <data key="d4" xml:space="preserve"/>
-      <data key="d6">
-        <y:UMLClassNode>
-          <y:Geometry height="567.7525596062355" width="220.86703346242106" x="651.718032807205" y="-271.5435320794511"/>
-          <y:Fill color="#C0C0C0" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="2.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.92626953125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.11181640625" x="90.37760852808553" xml:space="preserve" y="3.0">Entity<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="-0.03703090122767855" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-          <y:UML clipContent="true" constraint="" hasDetailsColor="false" omitDetails="false" stereotype="" use3DEffect="false">
-            <y:AttributeLabel xml:space="preserve">+kind: EntityKind
-+id: String
-+position: Point
-+images: List&lt;PImage&gt;
-+imageIndex: int
-+resourceLimit: int
-+resourceCount: int
-+actionPeriod: int
-+animationPeriod: int
-+QUAKE_ID: int &lt;&lt;static&gt;&gt;
-+QUAKE_ACTION_PERIOD: int &lt;&lt;static&gt;&gt;
-+QUAKE_ANIMATION_PERIOD: int &lt;&lt;static&gt;&gt;
-+QUAKE_ANIMATION_REPEAT_COUNT: int &lt;&lt;static&gt;&gt;</y:AttributeLabel>
-            <y:MethodLabel xml:space="preserve">+scheduleActions()
-+transformFull()
-+transformNotFull(): boolean
-+getCurrentImage(): PImage
-+getAnimationPeriod(): int
-+nextImage()
-+createAnimationAction(): Action
-+createMinerFull():Entity &lt;&lt;static&gt;&gt;
-+createMinerNotFull(): Entity &lt;&lt;static&gt;&gt;
-+createActivityAction(): Action
-+createBlacksmith(): Entity  &lt;&lt;static&gt;&gt;
-+createObstacle(): Entity &lt;&lt;static&gt;&gt;
-+createOre(): Entity &lt;&lt;static&gt;&gt;
-+createOreBlob(): Entity &lt;&lt;static&gt;&gt;
-+createQuake(): Entity &lt;&lt;static&gt;&gt;
-+createVein(): Entity() &lt;&lt;static&gt;&gt;
-+moveToNotFull(): boolean
-+moveToFull(): boolean
-+nextPositionMiner(): Point
-+nextPositionOreBlob(): Point
-+moveToOreBlob(): boolean
-+findNearest(): Optional&lt;Entity&gt;</y:MethodLabel>
-          </y:UML>
-        </y:UMLClassNode>
-      </data>
-    </node>
-    <node id="n14">
-      <data key="d4" xml:space="preserve"/>
-      <data key="d6">
-        <y:UMLClassNode>
-          <y:Geometry height="184.06479738398042" width="138.06458472780008" x="971.4579775978686" y="-126.16392459256272"/>
-          <y:Fill color="#C0C0C0" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="2.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.92626953125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="68.99365234375" x="34.53546619202504" xml:space="preserve" y="26.701171875">EntityKind<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="-0.03703090122767855" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-          <y:UML clipContent="true" constraint="" hasDetailsColor="false" omitDetails="false" stereotype="enumeration" use3DEffect="false">
-            <y:AttributeLabel xml:space="preserve">BLACKSMITH
-MINER_FULL
-MINER_NOT_FULL
-OBSTACLE
-ORE
-ORE_BLOB
-QUAKE
-VEIN</y:AttributeLabel>
-            <y:MethodLabel xml:space="preserve"/>
-          </y:UML>
-        </y:UMLClassNode>
-      </data>
-    </node>
-    <edge id="e0" source="n9" target="n7">
-      <data key="d8" xml:space="preserve"/>
+    <edge id="e0" source="n5" target="n3">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="white_diamond" target="none"/>
+          <y:Arrows source="none" target="standard"/>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e1" source="n9" target="n8">
-      <data key="d8" xml:space="preserve"/>
+    <edge id="e1" source="n5" target="n0">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="white_diamond" target="none"/>
+          <y:Arrows source="none" target="standard"/>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e2" source="n8" target="n6">
-      <data key="d8" xml:space="preserve"/>
+    <edge id="e2" source="n6" target="n2">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="white_diamond" target="none"/>
+          <y:Arrows source="none" target="standard"/>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e3" source="n9" target="n3">
-      <data key="d8" xml:space="preserve"/>
+    <edge id="e3" source="n5" target="n6">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="white_diamond" target="none"/>
+          <y:Arrows source="none" target="standard"/>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e4" source="n9" target="n4">
-      <data key="d8" xml:space="preserve"/>
+    <edge id="e4" source="n5" target="n4">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="white_diamond" target="none"/>
+          <y:Arrows source="none" target="standard"/>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e5" source="n7" target="n0">
-      <data key="d8" xml:space="preserve"/>
+    <edge id="e5" source="n3" target="n1">
+      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="white_diamond" target="none"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="e6" source="n3" target="n1">
-      <data key="d8" xml:space="preserve"/>
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="white_diamond" target="none"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="e7" source="n3" target="n2">
-      <data key="d8" xml:space="preserve"/>
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="none"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="e8" source="n7" target="n13">
-      <data key="d8" xml:space="preserve"/>
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="white_diamond" target="none"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="e9" source="n13" target="n5">
-      <data key="d8" xml:space="preserve"/>
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="white_diamond" target="none"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="e10" source="n13" target="n14">
-      <data key="d8" xml:space="preserve"/>
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="white_diamond" target="none"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="e11" source="n1" target="n11">
-      <data key="d8" xml:space="preserve"/>
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="white_diamond" target="none"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="e12" source="n11" target="n12">
-      <data key="d8" xml:space="preserve"/>
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="white_diamond" target="none"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="e13" source="n8" target="n7">
-      <data key="d8" xml:space="preserve"/>
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="none"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="e14" source="n1" target="n13">
-      <data key="d8" xml:space="preserve"/>
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="none"/>
+          <y:Arrows source="none" target="standard"/>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
       </data>
