@@ -18,10 +18,9 @@ W_const = 4.16925;  % Taken from prototype 1 parts sheet.[N]
 % %Sum constant weights
 % W_const = W_servos+W_MPPT+W_cam+W_avionics+W_spinner;
 
-
 %% non constant weight parameters
 W_wire = 9.81*.06*b;    %wire weight is a function of wingspan 
-W_prop = 0.2;           % Pure guess (~20 g)
+W_prop = 0.02;           % Pure guess [kg]
 % W_prop = .027*W_to;     %based on Mk3 Prototype prop
 % W_motor = .0046*W_to*design.PWto;   %based on Mk3 motor
 W_motor = 0;            % Already accounted for in constant weights. 
@@ -32,9 +31,9 @@ W_skid = 0;             % Assuming no skid.
 W_var = W_wire+W_prop+W_motor+W_skid;
 
 %% Structural Weight Estimation
-MGC = b/aero.AR;                    %mean geometric chord
-b_joint = .1*b;                     %for joined wing truss configuration - assuming rear wing is half the span of main wing
-t = geom.t_c*MGC;                   %wing thickness
+MGC = b/aero.AR;                    % mean geometric chord
+b_joint = .1*b;                     % for joined wing truss configuration - assuming horizontal tail is a tenth the span of main wing
+t = geom.t_c*MGC;                   % wing thickness
 
 %balsa properties
 rho_balsa = 160*9.81;        %[N/m^3]

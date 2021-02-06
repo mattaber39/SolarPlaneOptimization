@@ -4,7 +4,7 @@ format compact
 % optimization = input("Enter 1 to run optimization\n");
 % sensitivity = input("Enter 1 to run sensitivity study\n");
 
-optimization = 1;
+optimization = 0;
 sensitivity = 0;
 %% Initializing Power Train Info
 % Assuming Samsung 36G 18650s and the solar panels we bought. 
@@ -50,9 +50,9 @@ aero.eta_prop = 0.6;% 0.60;     %propulsive efficiency - will eventually be repl
 % Change the independant variables. 
 
 % Independant Variables
-n_b     = 100;
+n_b     = 100:100:1000;
 b       = 5;
-AR      = 7:14;
+AR      = 10;
 
 % Finding sizes of independant variable arrays. 
 n_size       = length(n_b);
@@ -108,7 +108,7 @@ end
 
 % If optimization is not run, the inputs must be initialized.
 if optimization ~= 1
-n_b     = 80;           % Number of batteries
+n_b     = 100;           % Number of batteries
 b       = 5;            % Span
 aero.AR = 14;           % Aspect ratio
 end
@@ -210,26 +210,26 @@ newPosition = [0.4 0.4 0.2 0.2];
 aero.eta_prop = 0.6; % Return to original value. 
 
 % Battery Efficiency:
-this_eta_batt = PT.eta_batt;
-[this_batt_t_batt, ~, ~, ~, this_t_night] = function2Optimize(n_b, b, aero.AR, aero, PT, geom);
-this_br_t_extra = this_batt_t_batt - this_t_night;
-eta_batt = 0.6:0.05:1.0;
-batt_size = length(eta_batt);
-batt_t_batt = zeros(1, batt_size);
-batt_t_night = zeros(1, batt_size);
-x_axis = zeros(1, batt_size);
-for Alt_count = 1:batt_size
-    PT.eta_batt = eta_batt(Alt_count);
-    [batt_t_batt(Alt_count), ~, ~, ~, batt_t_night(Alt_count)] = function2Optimize(n_b, b, aero.AR, aero, PT, geom);
-end
-ep_t_extra = batt_t_batt - batt_t_night;
-subplot(2, 3, 4)
-plot(eta_batt, ep_t_extra, eta_batt, x_axis, 'r');
-hold on
-plot(this_eta_batt, this_br_t_extra, 'og', 'MarkerSize', 10);
-title("Battery  Efficiency Sensitivity");
-ylabel("Extra Battery Flight Time [hrs]"); xlabel("Efficiency");
-PT.eta_batt = 0.95; % Return to original value. 
+% this_eta_batt = PT.eta_batt;
+% [this_batt_t_batt, ~, ~, ~, this_t_night] = function2Optimize(n_b, b, aero.AR, aero, PT, geom);
+% this_br_t_extra = this_batt_t_batt - this_t_night;
+% eta_batt = 0.6:0.05:1.0;
+% batt_size = length(eta_batt);
+% batt_t_batt = zeros(1, batt_size);
+% batt_t_night = zeros(1, batt_size);
+% x_axis = zeros(1, batt_size);
+% for Alt_count = 1:batt_size
+%     PT.eta_batt = eta_batt(Alt_count);
+%     [batt_t_batt(Alt_count), ~, ~, ~, batt_t_night(Alt_count)] = function2Optimize(n_b, b, aero.AR, aero, PT, geom);
+% end
+% ep_t_extra = batt_t_batt - batt_t_night;
+% subplot(2, 3, 4)
+% plot(eta_batt, ep_t_extra, eta_batt, x_axis, 'r');
+% hold on
+% plot(this_eta_batt, this_br_t_extra, 'og', 'MarkerSize', 10);
+% title("Battery  Efficiency Sensitivity");
+% ylabel("Extra Battery Flight Time [hrs]"); xlabel("Efficiency");
+% PT.eta_batt = 0.95; % Return to original value. 
 
 % Battery Discharge Depth:
 this_batt_range = PT.batt_range;

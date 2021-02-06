@@ -25,7 +25,7 @@ theta = theta_temp(theta_temp >= 0);                 %elevation after sunrise
 theta_c_a = [0 5 10 15 20 30 45 90];                    %This data is from NASA CR 3699
 c_a_interp = [0 .1 .2 .31 .38 .48 .56 .65];
 
-I_nom = 226.56;            %[W/m^2] nominal solar power, no atmospheric attenuation. July 5th. 
+I_nom = 1132.8;            %[W/m^2] nominal solar power, no atmospheric attenuation. July 5th. 
                            %Old Value: 1309. New value already takes into
                            %account the %20 efficiency of the panels, which
                            %is why it is so much lower. 

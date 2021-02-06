@@ -1,4 +1,4 @@
-function [n_s] = prototype_calcs(span, AR)
+function [n_s] = get_panels(span, AR)
 % README:
 % This is a program to quickly calculate some important features of the 
 % first prototype, such as # of solar panels, voltage, current, power, and 
@@ -16,14 +16,13 @@ function [n_s] = prototype_calcs(span, AR)
 
 % Calculated/User Input Parameters
 chrd = span/AR;     % Chord [m]
-wl = span/3;        % Length of one wing
-cs_w = wl;          % Control Surface width on each side [m]
+wl = span/2;        % Length of one wing
+cs_w = wl/4;          % Control Surface width on each side [m]
 cs_d = chrd/4;      % Control Surface depth into the wing [m]
 max_cover = 0.75;   % Amount of airfoil able to be covered by solar panels
 
 % Technological parameters
 sp_l = 0.125;   % Solar panel length and width [m]
-sp_A = sp_l^2;  % Solar panel area [m^2]
 Vmpp = 0.61;    % Voltage produced per cell at max power point [V]
 Voc  = 0.71;    % Max voltage each cell is capable of [V]
 Impp = 5.8;     % Current produced per cell at max power point [A]
@@ -43,7 +42,7 @@ Voc_tot  = N*Voc;   % Max voltage each wing is capable of [V].
 
 Pmpp = Vmpp_tot*Impp*2;   % Total power output per at max power point [kW].
 % E_tot = 
- 
+
 n_s = N*2;
 % fprintf("\nUser Inputs\n");
 % fprintf("Wingspan: %d m \n", span);
